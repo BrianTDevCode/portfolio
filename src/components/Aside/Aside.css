@@ -26,8 +26,8 @@
     padding: 0;
     margin: 0;
     position: absolute;
-    left: 30%;
-    top: 7%;
+    left: 26%;
+    top: 6%;
     display: none;
 }
 
@@ -242,7 +242,7 @@ color: var(--color-principal);
     }
 
      .aside__section-social{
-        top: 45%;
+        top: 41%;
         right: 4%;
     }
 

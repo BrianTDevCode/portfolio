@@ -53,7 +53,7 @@
 
 @media (max-width:1300px) {
     .user-info__section--data{
-        width: 52%;
+        width: 100%;
         overflow: hidden;
     }
 }
