@@ -1,0 +1,26 @@
+.project__icons{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.project__icon{
+   width: 50px;
+}
+
+.project__btn {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: block;
+    width: 40%;
+    text-align: center;
+    border: 2px solid var(--color-principal);
+    border-radius: 1rem;
+    box-shadow: 0 10px 10px -8px rgba(0,0,0,0.22);
+  }
+
+  .project__btn:hover{
+    opacity: 80%;
+  }
