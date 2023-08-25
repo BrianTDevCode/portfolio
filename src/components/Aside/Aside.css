@@ -183,9 +183,6 @@ color: var(--color-principal);
     }
 }
 
-@media  {
-    
-}
 
 @media (max-width:770px) {
     
@@ -220,12 +217,17 @@ color: var(--color-principal);
        
     }
 
+    .section-info__figure{
+        width: 10rem;
+        margin-left: 22%;
+    }
+
     .aside__section-info{
         right: 0;
     }
 
      .aside__section-social{
-        
+        top: 35%;
        right: 10%;
     }
 

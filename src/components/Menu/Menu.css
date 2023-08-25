@@ -26,6 +26,10 @@
     margin: 10px 0;
 }
 
+.menu__link{
+    text-decoration: none;
+}
+
 .menu__link:focus .menu__icon{
     color: var( --color-secondary);
 }
@@ -111,11 +115,18 @@
 
 @media (max-width:430px) {
     
+    .menu{
+        top: 30%;
+    }
+
     .menu__li{
-      width: 90vw;
+      width: 95vw;
      
   }
   
+  .menu__li:first-child{
+    display: none;
+  }
  
   
   }
