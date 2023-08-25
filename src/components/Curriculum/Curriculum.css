@@ -22,7 +22,7 @@
 
 .academic__left{
     /* outline: 3px solid green; */
-    flex-basis: 60%;
+    flex-basis: 55%;
 }
 
 .academic__right{
@@ -168,6 +168,7 @@
 
 .certificates__certificate{
     flex-basis: 75%;
+    max-height: 15rem;
     display: flex;
     /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -175,7 +176,7 @@
 }
 
 .certificate__figure{
-    width: 15rem;
+    flex-basis: 35%;
     height: 100%;
     padding: 2.5rem;
     display: flex;
@@ -184,7 +185,7 @@
 }
 
 .certificate__img{
-    width: 100%
+    width: 70%
 }
 
 .certificate__img--coder{
@@ -195,6 +196,7 @@
 
 .certificate__content{
     padding: 2rem 2.5rem;
+    flex-basis: 60%;
 }
 
 .certificate__title{
@@ -203,6 +205,8 @@
 }
 
 .certificate__date{
+    display: block;
+    margin-bottom: 1.5rem;
     font-weight: lighter;
     font-size: 1.3rem;
 }

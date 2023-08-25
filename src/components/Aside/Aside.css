@@ -14,6 +14,7 @@
     /* min-height: 728px;
     max-height: 728px; */
     width: 40vh;
+    
     /* border: 3px solid orange; */
     
     
@@ -86,15 +87,18 @@ color: var(--color-principal);
 
 
 .aside__section-social{
-    margin-bottom: 3.6rem;
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .section-social__ul{
-    text-align: center;
-    margin-top: 2rem;
+    margin: 0;
     display: flex;
-    
-
+    padding: 0;
+    width: 100%;
+    justify-content: center;
 }
 
 .section-social__icon{
@@ -155,26 +159,33 @@ color: var(--color-principal);
     .aside__close-container{
         display: block;
     }
-
+    
     .aside__section-info{
-        position: relative;
-        bottom: 5rem;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
     }
-
-     .section-info__figure{
-        /* width: 200px;
-        height: 200px;
-        display: flex; */
-        /* outline: 3px solid red; */
-    } 
+    
+    .section-info__figure{
+        margin-top: 2rem;
+        margin-bottom:0;
+        width: 14rem;
+    }
+    
+    .section-info__name{
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
   
      .aside__section-social{
         order: 1;
         margin: 0;
         position: relative;
-        top: 40%;
-        right: 8%;
+        top: 53%;
+       right: 8%;
     }
+
+    
 
     .aside__btn-container{
         position: relative;
@@ -186,6 +197,10 @@ color: var(--color-principal);
 
 @media (max-width:770px) {
     
+    .aside{
+        border-radius: 0;
+    }
+
     .aside__close-container{
         left: 33%;
         top: 1%;
@@ -196,8 +211,8 @@ color: var(--color-principal);
     }
 
      .aside__section-social{
-        top: 44%;
-       right: 25%;
+        top: 50%;
+        right: 12%;
     }
 
 
@@ -219,7 +234,7 @@ color: var(--color-principal);
 
     .section-info__figure{
         width: 10rem;
-        margin-left: 22%;
+        
     }
 
     .aside__section-info{
@@ -227,8 +242,8 @@ color: var(--color-principal);
     }
 
      .aside__section-social{
-        top: 35%;
-       right: 10%;
+        top: 45%;
+        right: 4%;
     }
 
 }

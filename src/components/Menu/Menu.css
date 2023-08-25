@@ -12,7 +12,7 @@
     flex-direction: column;
     background-color: var(--color-principal);
     text-align: center;
-    min-height: 32rem;
+   
     box-shadow: 0 0 3rem -0.5rem rgba(0,0,0,0.15);
     border-radius: 6rem;
     padding: 1rem;
@@ -23,11 +23,14 @@
 .menu__icon{
     color: var( --color-icon);
     font-size: 3.5rem !important;
-    margin: 10px 0;
+    margin: 10px 2.5rem;
 }
 
 .menu__link{
     text-decoration: none;
+    width: 100%;
+    display: flex;
+    
 }
 
 .menu__link:focus .menu__icon{
@@ -62,14 +65,17 @@
 @media (max-width:1300px) {
     
   .menu{
-    top: 42%;
-    left: 0;
+    top: 35%;
+    left: 1%;
+    width: 28%;
     /* display: none; */
   }
 
   .menu__ul{
     background-color: transparent;  
     box-shadow: none;
+    border-radius: 0;
+    padding: 0;
 }
 
 .menu__li{
@@ -82,7 +88,7 @@
     border-radius: 10px;
     flex-wrap: nowrap;
     margin: 1rem 0;
-    margin-left: 8%;
+   
 }
 
 .menu__spam{
@@ -105,10 +111,11 @@
 }
 
 
-@media (max-width:800px) {
-    .menu__li{
-        margin-left: 0;
-    }
+@media (max-width:770px){
+   .menu{
+    top: 32%;
+    width: 35%;
+   }
 }
 
 
@@ -117,6 +124,8 @@
     
     .menu{
         top: 30%;
+        width: 95%;
+        
     }
 
     .menu__li{
