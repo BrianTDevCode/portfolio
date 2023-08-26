@@ -16,7 +16,7 @@
   margin:0 ;
   padding:0 ;
   box-sizing: border-box;
-
+  /* overflow: hidden; */
   /* outline: 2px solid red; */
 }
 
@@ -25,23 +25,27 @@
 html{
   /* scroll-behavior: smooth; */
   font-size: 10px;
+  height: 100%;
+  
 }
 
 body
 {
   border: 0;
-  /* outline: 3px solid blue; */
+  outline: 3px solid #0000ff;
   display: flex;
+  
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   font-size: 1.5rem;
   background-color: var(--color-backound);
-  color: var(--color-text);
+
+  height: 100%;
+  /* overflow: hidden; */
 }
 
 
@@ -106,6 +110,11 @@ h1,h2,h3,h4{
 
 @media (max-width:770px) {
     
+  body{
+    height: 100lvh;
+    overflow: hidden;
+  }
+
   .content__aside--visible{
     margin-left: 0;
   }

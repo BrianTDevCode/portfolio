@@ -117,7 +117,11 @@
     }
 
     .card__container{
-      width: 60vw;
-      height: 30vh;
+      width: 220px;
+      height: 265px;
+    }
+
+    .card__footer{
+      height: 80px;
     }
   }
