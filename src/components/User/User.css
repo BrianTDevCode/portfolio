@@ -77,10 +77,14 @@
     width: 100%;
     font-size: 1.5rem;
     margin-bottom: 4rem;
+    text-align: center;
+    font-weight: 500;
   }
 
   .user-info__li{
     font-size: 1.5rem;
+   margin-left: 5.5rem;
+   font-weight: 500;
   }
 }
 

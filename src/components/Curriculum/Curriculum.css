@@ -229,6 +229,17 @@
 }
 
 
+@media (max-width:770px) {
+   
+   .academic__right{
+    margin-top: 5rem;
+    flex-basis: 100%;
+   }
+    .certificates__certificate{
+        flex-basis: 100%;
+    }
+}
+
 @media (max-width:430px) {
     
   
@@ -257,7 +268,7 @@
     }
 
     .certificates__certificate{
-        width: 95%;
+        flex-basis: 100%;
     }
 
 }
@@ -278,7 +289,35 @@
     .academic__container{
         padding: 0;
     }
+
+    .academic__subtitle{
+        margin-right: 0;
+    }
+
+    .academic__subskils{
+            display: flex;
+            flex-wrap: wrap;
+            /* outline: 3px solid red; */
+            justify-content: center;
+        
+    }
+
+    .timelines__timeline{
+       
+        margin-left: 3rem;
+    }
+
     .timeline__description{
-        width: 50%;
+        width: auto;
+        font-size: 1rem;
+      
+    }
+
+    .timeline__title{
+        font-size: inherit;
+    }
+
+    .timeline__paragraph{
+        font-size: inherit;
     }
 }

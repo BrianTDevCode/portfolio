@@ -22,27 +22,29 @@ export const User = () => {
       <section className="user-info__section--data">
         <ul className="user-info__ul">
             <li className="user-info__li">
-                <span className="user-info__title">Edad</span>
+                <span className="user-info__title">Edad:</span>
                 <span className="user-info__value">25</span>
             </li>
 
             <li className="user-info__li">
-                <span className="user-info__title">País</span>
+                <span className="user-info__title">País:</span>
                 <span className="user-info__value">Uruguay</span>
             </li>
 
             <li className="user-info__li">
-                <span className="user-info__title">Idioma nativo</span>
+                <span className="user-info__title">Idioma nativo:</span>
                 <span className="user-info__value">Español</span>
             </li>
             <li className="user-info__li">
-                <span className="user-info__title">Inglés</span>
+                <span className="user-info__title">Inglés:</span>
                 <span className="user-info__value">A2</span>
             </li>
 
             <li className="user-info__li">
-                <span className="user-info__title">Mail</span>
-                <span className="user-info__value">briantriasm@gmail.com</span>
+                <span className="user-info__title">Mail:</span>
+              <a className="user-info__value" href="mailto: briantriasm@gmail.com">
+              briantriasm@gmail.com
+              </a>
             </li>
            
         </ul>

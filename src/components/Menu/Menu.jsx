@@ -58,13 +58,13 @@ export const Menu = () => {
                <li className="menu__li" onClick={hideMenu}>
                 <Link className='menu__link' to={'/portfolio'}>
                     <WorkIcon className='menu__icon'/>
-                    <span className='menu__spam'>Porfolio</span>
+                    <span className='menu__spam'>Proyectos</span>
                 </Link>
             
             </li>
 
             <li className="menu__li" onClick={hideMenu}>
-                <Link className='menu__link'>
+                <Link className='menu__link' to={'/contact'}>
                     <MailIcon className='menu__icon'/>
                     <span className='menu__spam'>Contacto</span>
                 </Link>

@@ -13,7 +13,7 @@ export const Portfolio = () => {
     <>
       <section className="portfolio__header">
         <h2 className="portfolio__title">
-          Portfolio
+          Proyectos
         </h2>
       </section>
 
@@ -32,6 +32,10 @@ export const Portfolio = () => {
             </figure>
           </section>
         </div>
+        
+
+        
+        
 
         
       </div>

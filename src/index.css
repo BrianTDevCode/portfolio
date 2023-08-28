@@ -27,7 +27,13 @@ html{
   font-size: 10px;
   height: 100%;
   
+
+
+  margin: 0;
+  overflow: hidden;
+  height: 100%
 }
+
 
 body
 {
@@ -46,6 +52,11 @@ body
 
   height: 100%;
   /* overflow: hidden; */
+
+  margin: 0;
+  overflow: auto;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 
 
@@ -130,3 +141,4 @@ h1,h2,h3,h4{
     margin-left: -100%;
   }
 }
+
