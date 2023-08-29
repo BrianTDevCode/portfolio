@@ -38,7 +38,7 @@ html{
 body
 {
   border: 0;
-  outline: 3px solid #0000ff;
+  /* outline: 3px solid #0000ff;z */
   display: flex;
   
   justify-content: center;

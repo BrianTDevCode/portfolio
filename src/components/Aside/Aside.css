@@ -248,3 +248,35 @@ color: var(--color-principal);
 
 }
 
+/*horizonal*/
+
+
+
+@media screen and (orientation: landscape) and (max-width: 730px){
+
+
+    .aside{
+        outline: 3px solid coral;
+        width: 100%;
+    }
+
+    .aside__section-social{
+       
+        top: 73%;
+       right: 8%;
+    }
+
+}
+
+@media screen and (orientation: landscape) and (max-height: 380px){
+
+
+   
+
+    .aside__section-social{
+       
+        top: 70%;
+       right: 8%;
+    }
+
+}

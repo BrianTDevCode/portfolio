@@ -138,3 +138,62 @@
  
   
   }
+
+
+  @media screen and (orientation: landscape) and (max-width: 670px){
+
+
+    .aside__section-info{
+        /* outline: 3px solid white; */
+        height: auto;
+        width: 22vw;
+    }
+
+    .section-info__figure{
+        margin: 0;
+        display: none;
+    }
+
+    .menu{
+        /* outline: 3px solid red; */
+        width: 32%;
+        top: 18%;
+    }
+
+    .menu__li{
+        height: 4rem;
+        align-items: center;
+    }
+
+    .menu__spam{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (orientation: landscape) and (max-height: 380px){
+
+
+    .aside__section-info{
+        /* outline: 3px solid white; */
+        height: auto;
+        width: 22vw;
+    }
+
+ 
+    .menu{
+        /* outline: 3px solid red; */
+        width: 50%;
+        top: 32%;
+    }
+
+    .menu__li{
+       width: 100%;
+       height: 3.5rem;
+    }
+
+    .menu__spam{
+        font-size: 1.2rem;
+    }
+
+}
