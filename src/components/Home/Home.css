@@ -112,3 +112,21 @@
     }
 
 }
+
+
+
+
+@media screen and (orientation: landscape) and (max-height: 400px){
+    .content{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        /* overflow: scroll; */
+        border-radius: 0;
+    }
+
+    .main{
+        border-radius: 0;
+    }
+}

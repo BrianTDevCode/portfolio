@@ -171,25 +171,28 @@
 
 }
 
-@media screen and (orientation: landscape) and (max-height: 380px){
+@media screen and (orientation: landscape) and (max-height: 400px){
 
 
     .aside__section-info{
-        /* outline: 3px solid white; */
-        height: auto;
-        width: 22vw;
+        display: none;
     }
 
  
     .menu{
         /* outline: 3px solid red; */
-        width: 50%;
-        top: 32%;
+        position: absolute;
+        width: 23%;
+        top: 5%;
     }
 
     .menu__li{
        width: 100%;
        height: 3.5rem;
+    }
+
+    .menu__icon{
+        margin: 0;
     }
 
     .menu__spam{
