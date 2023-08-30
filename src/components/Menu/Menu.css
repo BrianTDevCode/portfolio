@@ -189,15 +189,17 @@
     .menu__li{
        width: 100%;
        height: 3.5rem;
+       align-items: center;
     }
 
     .menu__icon{
-        margin: .3rem .5rem;
+        margin: .3rem .2rem;
         font-size: 3rem !important;
     }
 
     .menu__spam{
         font-size: 1.2rem;
+        margin-top: .5rem;
     }
 
 }
