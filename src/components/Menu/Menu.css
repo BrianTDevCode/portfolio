@@ -192,7 +192,8 @@
     }
 
     .menu__icon{
-        margin: 0;
+        margin: .3rem .5rem;
+        font-size: 3rem !important;
     }
 
     .menu__spam{
