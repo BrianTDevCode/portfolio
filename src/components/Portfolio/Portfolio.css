@@ -125,7 +125,7 @@
 
   }
 
-  @media screen and (orientation: landscape) and (max-height: 400px){
+  @media screen and (orientation: landscape) and (max-height: 420px){
     .card__container{
       width: 180px;
       height: 200px;

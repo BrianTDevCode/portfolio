@@ -9,8 +9,6 @@ import { useNavigate } from "react-router-dom";
 
 const MySwal = withReactContent(Swal);
 
-
-
 export const Contact = () => {
   let navigate = useNavigate();
   const submit = (values) => {
@@ -72,7 +70,7 @@ export const Contact = () => {
       );
   };
 
-
+  
 
   return (
     <>
@@ -91,42 +89,45 @@ export const Contact = () => {
           validate={validate}
         >
           <Form className="contact__form" ref={form}>
-            <label className="contact__label" htmlFor="name">
-              Nombre
-            </label>
-            <Field
-              className="contact__field"
-              name="name"
-              type="text"
-              placeholder="Ingrese su nombre"
-              required
-             
-            />
+            <div className="contact__data">
+              <label className="contact__label" htmlFor="name">
+                Nombre
+              </label>
+              <Field
+                className="contact__field"
+                name="name"
+                type="text"
+                placeholder="Ingrese su nombre"
+                required
+              />
+            </div>
 
-            <label className="contact__label" htmlFor="mail">
-              Correo
-            </label>
-            <Field
-              className="contact__field"
-              name="mail"
-              type="email"
-              placeholder="Ingrese su correo"
-              required
-            
-            />
-            <label className="contact__label" htmlFor="messeage">
-              Mensaje
-            </label>
-            <Field
-              className="contact__field"
-              id="hola"
-              name="message"
-              as="textarea"
-              placeholder="Ingrese el mensaje"
-              required
-            
-            />
+            <div className="contact__data">
+              <label className="contact__label" htmlFor="mail">
+                Correo
+              </label>
+              <Field
+                className="contact__field"
+                name="mail"
+                type="email"
+                placeholder="Ingrese su correo"
+                required
+              />
+            </div>
 
+            <div className="contact__data">
+              <label className="contact__label" htmlFor="messeage">
+                Mensaje
+              </label>
+              <Field
+                className="contact__field contact__field--text-area"
+                id="hola"
+                name="message"
+                as="textarea"
+                placeholder="Ingrese el mensaje"
+                required
+              />
+            </div>
             <button className="contact__btn" type="submit">
               Enviar
             </button>

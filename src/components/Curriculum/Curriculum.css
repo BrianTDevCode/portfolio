@@ -9,7 +9,7 @@
 }
 
 .academic__container{
-    /* outline: 3px solid green; */
+    outline: 3px solid green;
     width: 100%;
      display: flex;
     flex-wrap: wrap; 
@@ -234,6 +234,7 @@
    .academic__right{
     margin-top: 5rem;
     flex-basis: 100%;
+    position: relative;
    }
     .certificates__certificate{
         flex-basis: 100%;
@@ -244,9 +245,12 @@
     
   
     .academic__container{
-        display: block;
-        width: 85vw;
+        /* display: block; */
+        width: 100%;
         padding-left: 5rem;
+        height: auto;
+        overflow: scroll;
+        padding-bottom: 15rem;
     }
 
     .academic__title{
@@ -265,10 +269,19 @@
         font-size: 2.2rem;
         text-align: center;
         width: 100%;
+        outline: 3px solid red;
+    }
+
+    .academic__subskils{
+        margin: 0 3rem;
     }
 
     .certificates__certificate{
-        flex-basis: 100%;
+        flex-basis: 90%;
+    }
+
+    .certificate__figure{
+        padding: .5rem;
     }
 
 }
