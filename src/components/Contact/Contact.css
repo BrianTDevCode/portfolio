@@ -57,6 +57,7 @@
     background-color: var(--color-secondary);
     color: var(--color-principal);
     border: 0;
+  font-size: 2rem;
 }
 
 .contact__field.contact__field--text-area{

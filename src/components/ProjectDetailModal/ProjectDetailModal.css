@@ -28,6 +28,8 @@ font-size: 4rem !important;
   background-color: var(--color-secondary);
   color: var(--color-principal);
   border: 0;
+  font-size: 2rem;
+  text-decoration: none;
   }
 
   .project__btn:hover{

@@ -26,7 +26,6 @@ export const Contact = () => {
     }).then((result) => {
 
       if (result.isConfirmed) {
-        Swal.fire('Correo enviado correctamente', '', 'success')
          sendEmail();
          navigate('/')
       } 
@@ -48,10 +47,10 @@ export const Contact = () => {
   const sendEmail = () => {
     emailjs
       .sendForm(
-        "service_k40qiem",
-        "template_1188qn9",
+        import.meta.env.VITE_service,
+        import.meta.env.VITE_template,
         form.current,
-        "V3vZOSfq9LKJp02PJ"
+        import.meta.env.VITE_codeId
       )
       .then(
         (result) => {

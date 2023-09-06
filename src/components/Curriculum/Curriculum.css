@@ -222,6 +222,9 @@
     border-radius: 10px;
     box-shadow: 0 10px 10px -8px rgba(0,0,0,0.22);
     width: 80%;
+    text-decoration: none;
+    color: var(--color-secondary);
+
 }
 
 .certificate__btn:hover{
@@ -303,6 +306,10 @@
 }
 
 @media (max-width:380px) {
+
+    .academic__subskils{
+        margin: 0 7.5rem;
+    }
     
     .certificate__content{
         padding: .8rem;
