@@ -17,15 +17,20 @@ export const Contact = () => {
     MySwal.fire({
       icon: "question",
       title: <p>Confirmar Acción</p>,
-
       showCancelButton: "true",
       confirmButtonText: "Si",
       confirmButtonColor: "#1f43f2",
       cancelButtonColor: "#bf2626",
       cancelButtonText: "No",
-    }).then(() => {
-      //sendEmail();
-      window.location.reload();
+      heightAuto: false,
+    }).then((result) => {
+
+      if (result.isConfirmed) {
+        Swal.fire('Correo enviado correctamente', '', 'success')
+         sendEmail();
+         navigate('/')
+      } 
+     ;
     });
   };
 

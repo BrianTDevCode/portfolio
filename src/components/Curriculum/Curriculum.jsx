@@ -284,7 +284,7 @@ export const Curriculum = () => {
                   <div className="certificate__content">
                     <h4 className="certificate__title">Javascript</h4>
                     <span className="certificate__date">2023</span>
-                    <button className="certificate__btn">Certificado</button>
+                    <a className="certificate__btn" href="https://www.coderhouse.com.uy/certificados/63aa09debedfe5000ea37d94" target="_blank">Certificado</a>
                   </div>
                 </div>
 
@@ -296,7 +296,7 @@ export const Curriculum = () => {
                   <div className="certificate__content">
                     <h4 className="certificate__title">React JS</h4>
                     <span className="certificate__date">2023</span>
-                    <button className="certificate__btn">Certificado</button>
+                    <a className="certificate__btn" href="https://www.coderhouse.com.uy/certificados/6423354ce506c60002311004" target="_blank">Certificado</a>
                   </div>
                 </div>
 
@@ -307,7 +307,7 @@ export const Curriculum = () => {
                   <div className="certificate__content">
                     <h4 className="certificate__title">Cursos Frontend</h4>
                     <span className="certificate__date">2023</span>
-                    <button className="certificate__btn">             Platzi</button>
+                    <a className="certificate__btn" href="https://platzi.com/p/briantrias/" target="_blank">Platzi</a>
                   </div>
                 </div>
 

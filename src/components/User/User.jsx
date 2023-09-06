@@ -1,4 +1,5 @@
 import './User.css'
+import { Link } from 'react-router-dom';
 
 export const User = () => {
   return (
@@ -37,14 +38,14 @@ export const User = () => {
             </li>
             <li className="user-info__li">
                 <span className="user-info__title">Inglés:</span>
-                <span className="user-info__value">A2</span>
+                <span className="user-info__value">Pre intermediate</span>
             </li>
 
             <li className="user-info__li">
                 <span className="user-info__title">Mail:</span>
-              <a className="user-info__value" href="mailto: briantriasm@gmail.com">
-              briantriasm@gmail.com
-              </a>
+                <Link className='menu__link' to={'/contact'}>
+              <span className="user-info__value">briantriasm@gmail.com </span>
+              </Link>
             </li>
            
         </ul>

@@ -6,10 +6,17 @@
 .academic__title{
     font-size: 3.5rem;
     position: relative;
+
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 13ch;
+  animation: typing 2s steps(13),blink .5s infinite step-end alternate;
+  overflow: hidden;
 }
 
 .academic__container{
-    outline: 3px solid green;
+    /* outline: 3px solid green; */
     width: 100%;
      display: flex;
     flex-wrap: wrap; 
@@ -31,10 +38,7 @@
    
 }
 
-.academic__bottom{
-    margin-top: 7rem;
-    /* outline: 3px solid blue; */
-}
+
 
 .academic__timelines{
     margin-bottom: 2rem;
@@ -153,9 +157,7 @@
    transition: all 200ms;
 }
 
-.academic__studies{
-    /* outline: 3px solid blue; */
-}
+
 
 
 
@@ -212,13 +214,14 @@
 }
 
 .certificate__btn{
-    min-width: 15rem;
+    text-align: center;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     background-color: var(--color-principal);
     border: 2px solid #000;
     border-radius: 10px;
     box-shadow: 0 10px 10px -8px rgba(0,0,0,0.22);
+    width: 80%;
 }
 
 .certificate__btn:hover{
@@ -230,6 +233,10 @@
 
 
 @media (max-width:770px) {
+
+    .academic__left{
+        flex-basis: 100%;
+    }
    
    .academic__right{
     margin-top: 5rem;
@@ -243,15 +250,21 @@
 
 @media (max-width:430px) {
     
-  
+    .academic__header{
+    display: flex;
+    justify-content: center;
+    }
+    
     .academic__container{
+        /* outline: 3px solid green; */
         /* display: block; */
         width: 100%;
-        padding-left: 5rem;
         height: auto;
         overflow: scroll;
         padding-bottom: 15rem;
     }
+    
+   
 
     .academic__title{
         margin-top: 6rem;
@@ -266,10 +279,12 @@
     }
     
     .academic__subheader {
+        display: flex;
+        justify-content: center;
         font-size: 2.2rem;
-        text-align: center;
         width: 100%;
-        outline: 3px solid red;
+        /* outline: 3px solid red; */
+        padding-left: 3rem;
     }
 
     .academic__subskils{
@@ -277,7 +292,8 @@
     }
 
     .certificates__certificate{
-        flex-basis: 90%;
+        flex-basis: 98%;
+        margin: 0 2rem;
     }
 
     .certificate__figure{

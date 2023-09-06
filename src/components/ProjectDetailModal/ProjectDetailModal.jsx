@@ -6,12 +6,16 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 export const ProjectDetailModal = ({ show, handleClose }) => {
   return (
     <>
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
+      <Modal 
+      show={show} 
+      onHide={handleClose}
+      centered
+      size="xl">
+        <Modal.Header closeButton >
           <Modal.Title>Herbo Botánica</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>
+          <p className="project-detailModal__text">
             Herbo Botánica, es un emprendimiento ubicado en Villa Urquiza en la
             ciudad de Buenos Aires, Argentina dedicado al al cuidado de la salud
             emocional y bienestar de personas y mascotas mediante productos

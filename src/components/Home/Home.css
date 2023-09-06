@@ -68,10 +68,7 @@
         width: 100%;
     }
 
-    .main__toggle{
-        
-        /* display: block; */
-      }
+ 
 
 }
 
@@ -104,7 +101,8 @@
     .main{
         padding: 1rem 1rem;
         margin: 0;
-       
+       padding: 0;
+       /* outline: 3px solid red; */
     }
 
     .main__toggle{
@@ -136,11 +134,6 @@
 }
 
 
-/* @media all and (device-width: 844px) and (device-height: 390px) and (orientation:landscape) {
-    .content{
-        width: 10px;
-        height: 10px;
-    } */
 
 
     

@@ -6,7 +6,19 @@
 .user__title {
   font-size: 3.5rem;
   position: relative;
+
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 8ch;
+  animation: typing 2s steps(8),blink .5s infinite step-end alternate;
+  overflow: hidden;
 }
+
+@keyframes typing {from{width: 0;}}
+@keyframes blink {58%{border-color: transparent;}}
+
+
 
 .title__color {
   color: var(--color-secondary);
@@ -24,6 +36,7 @@
   width: 100%;
   font-size: 2.1rem;
   letter-spacing: 3px;
+  margin-bottom: 5rem;
 }
 
 .user-info__section--data {
@@ -37,16 +50,21 @@
 }
 
 .user-info__li {
+  display: flex;
   margin-bottom: 1rem;
-  font-weight: lighter;
   letter-spacing: 3px;
+  font-size: 2.3rem;
 }
 
 .user-info__title {
   margin-right: 0.5rem;
   color: var(--color-secondary);
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.3rem;
+}
+
+.user-info__value{
+  color: #000;
 }
 
 @media (max-width: 1300px) {
@@ -59,16 +77,15 @@
 @media (max-width: 430px) {
   .user__header {
     margin-top: 6rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
-  .about__user {
-    width: 100%;
-    margin: 0 1rem;
-  }
+
 
   .user-info__section {
     flex-direction: column;
+    margin: 0 2rem;
   }
 
   .user-info__paragraph {
@@ -78,13 +95,18 @@
     text-align: center;
     font-weight: 500;
   }
+  
+  .user-info__title, .user-info__value{
+    font-size: 1.5rem;
+  }
 
   .user-info__li {
-    font-size: 1.5rem;
-    margin-left: 5.5rem;
-    font-weight: 500;
+    margin-left: 3rem;
   }
+
+
 }
+
 
 @media screen and (orientation: landscape) and (max-height: 420px) {
   .user-info__paragraph {

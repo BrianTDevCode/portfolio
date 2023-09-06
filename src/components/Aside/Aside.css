@@ -13,7 +13,7 @@
     height: 100%;
     /* min-height: 728px;
     max-height: 728px; */
-    width: 40vh;
+    width: 35vh;
     
     /* border: 3px solid orange; */
     
@@ -158,6 +158,7 @@ color: var(--color-principal);
     
     .aside__close-container{
         display: block;
+        left: 30%;
     }
     
     .aside__section-info{
@@ -202,11 +203,12 @@ color: var(--color-principal);
     }
 
     .aside__close-container{
-        left: 33%;
+        left: 30%;
         top: 1%;
     }
 
     .aside__section-info{
+        position: relative;
         right: 15%;
     }
 
@@ -242,7 +244,7 @@ color: var(--color-principal);
     }
 
      .aside__section-social{
-        top: 41%;
+        top: 51%;
         right: 4%;
     }
 

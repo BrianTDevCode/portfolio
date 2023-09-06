@@ -4,12 +4,43 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    
     /* outline: 3px solid blue; */
 }
 
 .about__name{
-    font-size: 6rem;
-    margin-bottom: 1rem;
+    display: block;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 1.1;
+    position: relative;
+}
+
+.about__name::before{
+    background: linear-gradient(90deg, rgba(34,195,148,1) 0%, rgba(123,35,221,1) 100%);
+
+    content: 'Hola!';
+    position: absolute;
+    inset: 0;
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    animation: animated 2s infinite;
+}
+
+.about__btn{
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 40%;
+    border-radius: 10px;
+    background-color: var(--color-secondary);
+    color: var(--color-principal);
+    border: 0;
+    animation: fade-up 2.5s;
+    font-size: 2rem;
+    /* outline: 3px solid blue; */
+
 }
 
 .about__profession{
@@ -17,10 +48,42 @@
     font-weight: lighter;
     color: var(--color-subtitble);
     letter-spacing: 3px;
+    margin-bottom: 5rem;
+    animation: fade-up 2.5s;
 }
 
-@media (max-width:330px) {
-    .about__name{
-        font-size: 4rem;
+@keyframes animated {
+    0%{
+        opacity: 0.8;
     }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fade-up {
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@media (max-width:430px) {
+    
+    .about__user{
+        height: 100vh;
+        width: 100vw;
+    }
+
+   .about__btn{
+    width: 60%;
+}
+ 
 }
