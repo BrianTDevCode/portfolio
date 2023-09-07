@@ -34,7 +34,7 @@
   /* outline: 3px solid blue; */
   display: block;
   width: 100%;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   letter-spacing: 3px;
   margin-bottom: 5rem;
 }
@@ -53,14 +53,14 @@
   display: flex;
   margin-bottom: 1rem;
   letter-spacing: 3px;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
 }
 
 .user-info__title {
   margin-right: 0.5rem;
   color: var(--color-secondary);
   font-weight: bold;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
 }
 
 .user-info__value{
