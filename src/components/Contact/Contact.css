@@ -51,8 +51,8 @@
 }
 
 .contact__btn{
-    padding: 2rem;
-    width: 55%;
+    padding: 1rem;
+    width: 50%;
     border-radius: 10px;
     background-color: var(--color-secondary);
     color: var(--color-principal);

@@ -203,18 +203,18 @@ color: var(--color-principal);
     }
 
     .aside__close-container{
-        left: 30%;
+        left: 33%;
         top: 1%;
     }
 
     .aside__section-info{
         position: relative;
-        right: 15%;
+        right: 28%;
     }
 
      .aside__section-social{
-        top: 50%;
-        right: 12%;
+        top: 45%;
+        right: 27%;
     }
 
 
